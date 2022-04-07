@@ -5,10 +5,10 @@ on:
   repository_dispatch:
     types:
     - deploy
-  workflow_run:
-    workflows: ["catalog-api"]
-    branches: [dev]
-    types: [completed]
+#  workflow_run:
+#    workflows: ["catalog-api"]
+#    branches: [dev]
+#    types: [completed]
 
 env:
   CHART: catalog-api
